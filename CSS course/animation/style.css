@@ -1,0 +1,38 @@
+.container{
+    margin: 30px;
+    width: 400px;
+    height: 400px;
+    background-color: lightpink;
+}
+.item
+{
+   margin: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: aquamarine;
+    border: solid black 1px;
+    display: inline-block;
+    
+    animation: bounce 2s;
+    animation-iteration-count: infinite;
+}
+.one{
+    animation-timing-function: ease-in;
+}
+.two{
+    animation-timing-function: ease-out;
+}
+.three{
+    animation-timing-function: linear;
+}
+@keyframes bounce {
+    0%{
+
+    }
+    50%{
+       transform: translateY(300px);
+    }
+    100%{
+
+    }
+}

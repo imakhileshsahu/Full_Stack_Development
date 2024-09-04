@@ -1,0 +1,12 @@
+h2 + p{
+    font-weight: bold;
+}
+h2 ~ p{
+    color:blue ;
+}
+section>p{
+    background-color: aqua;
+}
+section p{
+    font-family: monospace;
+}

@@ -1,0 +1,27 @@
+*{
+    color: red;
+
+}
+body{
+    margin-top: 40px;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
+#p1
+{
+    margin-left: 30px;
+}
+#p2
+{
+    background-color: blue;
+}
+#p3{
+    font-size: 30px;
+}
+.osmpara{
+    background-color: yellowgreen;
+}
+.bigpara{
+    font-size:60px ;
+}

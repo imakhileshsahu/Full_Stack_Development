@@ -1,0 +1,14 @@
+li{
+    font-weight: bold;
+}
+ul>li{
+    color:blue;
+
+}
+ol>li{color: brown;}
+ul ul{
+ font-style: italic;
+}
+ol+ul{
+    background-color: aquamarine;
+}

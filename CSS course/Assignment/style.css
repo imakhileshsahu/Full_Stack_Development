@@ -1,0 +1,13 @@
+ol{
+    counter-reset: element;
+    list-style-type: none;
+}
+li{
+    margin-bottom: 10px;
+}
+
+li::before{
+    color: black;
+    counter-increment: element;
+    content: counters(element,'.');
+}
